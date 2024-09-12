@@ -296,7 +296,7 @@ namespace TopicFive
         {
             if (current != null)
             {
-                lblOutput.Text = "Balance is " + current.getBalance();
+                lblOutput.Text = "Balance is KES " + current.getBalance();
             }
         }
 

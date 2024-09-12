@@ -54,7 +54,7 @@ namespace TopicFive
             {
                 return false;
             }
-            lastTransaction =  "Balance was" + balance + ". Withdrew " + amount;
+            lastTransaction =  "Balance was KES " + balance + ". Withdrew KES " + amount;
             balance -= amount;
 
             return true;
@@ -67,7 +67,7 @@ namespace TopicFive
                 return false;
             }
             balance -= amount;
-            lastTransaction = "Balance was" + balance + "withdrew" + amount;           
+            lastTransaction = "Balance was KES " + balance + ". Withdrew KES " + amount;           
             //balance -= amount;
             return true;
         }
